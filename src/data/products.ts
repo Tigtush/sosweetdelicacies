@@ -42,7 +42,7 @@ export const products: Product[] = [
   {
     id: 'boondi',
     name: 'Boondi',
-    price: 800,
+    price: 950,
     image: `${LOCAL}/Boondi_.jpg`,
     category: 'all-season',
   },
@@ -98,7 +98,7 @@ export const products: Product[] = [
   {
     id: 'granola-bar',
     name: 'Granola Bar',
-    price: 600,
+    price: 950,
     image: `${LOCAL}/Granola_Bar.jpg`,
     category: 'all-season',
   },
@@ -119,7 +119,7 @@ export const products: Product[] = [
   {
     id: 'kaju-katli',
     name: 'Kaju Katli',
-    price: 1500,
+    price: 1800,
     image: `${LOCAL}/Kaju_Katli.jpg`,
     category: 'burfi',
   },
@@ -140,7 +140,7 @@ export const products: Product[] = [
   {
     id: 'moong-daal-halwa',
     name: 'Moong Daal Halwa',
-    price: 1100,
+    price: 1200,
     image: `${LOCAL}/Moong_Daal_Halwa.jpg`,
     category: 'winter-delicacy',
   },
@@ -168,8 +168,8 @@ export const products: Product[] = [
   {
     id: 'postpartum-panjiri-ladoo',
     name: 'Postpartum Panjiri Ladoo',
-    price: 1500,
-    image: `${CDN}/PanjiriLaddoo.jpg?v=1775903179&width=800`,
+    price: 1450,
+    image: `${LOCAL}/Postpartum_Panjiri_Ladoo.jpg`,
     category: 'ladoo',
   },
   {
@@ -182,8 +182,15 @@ export const products: Product[] = [
   {
     id: 'rice-modaks',
     name: 'Rice Modaks',
-    price: 1100,
-    image: 'https://images.pexels.com/photos/8887051/pexels-photo-8887051.jpeg?auto=compress&cs=tinysrgb&w=800',
+    price: 550,
+    image: `${LOCAL}/Rice_Modaks.jpg`,
+    category: 'all-season',
+  },
+  {
+    id: 'Sweet-potato-brownie',
+    name: 'Sweet Potato Brownie',
+    price: 950,
+    image: `${LOCAL}/Sweet_Potato_Brownie.jpg`,
     category: 'all-season',
   },
   {
